@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* UNIVERSAL */
+*{
+	margin:0px; padding:0px;
+}
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+
+}
+
+.mainContent {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*--------NAVIGATION SECTION----------*/
+
+.nav {
+    background-color: #FFE8E0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 960px;
+    height: 55px;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    width: 150px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+h1 {
+    color: #FFE8E0;
+    text-align: center;
+}
+
+.menu {
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.menu li{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B2958B;
+}
+
+/*--------ABOUT ME SECTION----------*/
+
+.content {
+    border-color: #FFE8E0;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.header {
+    color: #B2958B;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: #B2958B;
+    text-decoration-style: dotted;
+}
+
+.contentBody {
+    /* position: relative; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* display: inline-block; */
+    overflow: auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+
+/*----------PORTFOLIO SECTION---------*/
+
+
+
+
+/*----------CONTACT SECTION---------*/
+
+h3 {
+    color: #B2958B;
+}
+
+.formName {
+    border-color: #FFE8E0;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 50%;
+    height: 25px; 
+}
+
+.formEmail {
+    border-color: #FFE8E0;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 50%;
+    height: 25px; 
+}
+
+.formMessage {
+    border-color: #FFE8E0;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 5px;
+    width: 99%;
+    height: 100px; 
+}
+
+.submit {
+    background-color: #B2958B;
+    color: white;
+    padding-top: 10px;
+    width: 15%;
+    height: 25px;
+    text-align: center;
+}
+
+
+/*----------FOOTER---------*/
+
+.footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 960px;
+    margin: 0 auto;
+    background-color: #FFE8E0;
+    /* margin-top: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
