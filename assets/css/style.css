@@ -8,7 +8,7 @@ html {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.container {
+.wrapper {
 
 }
 
@@ -22,18 +22,18 @@ html {
 
 .nav {
     background-color: #FFE8E0;
-    padding-top: 20px;
-    padding-bottom: 20px;
     width: 960px;
     height: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .logo {
     background-color: white;
-    border-radius: 20px;
+    width: 150px;
     position: relative;
     float: left;
-    width: 150px;
+    border-radius: 20px;
     margin-left: 20px;
     padding-top: 10px;
     padding-right: 10px;
@@ -83,10 +83,10 @@ a:hover {
 
 .header {
     color: #B2958B;
-    margin-top: 20px;
     text-decoration: underline;
     text-decoration-color: #B2958B;
     text-decoration-style: dotted;
+    margin-top: 20px;
 }
 
 .contentBody {
@@ -112,7 +112,51 @@ p {
 
 /*----------PORTFOLIO SECTION---------*/
 
-
+.container {
+    width: 200px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  
+  .image {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    opacity: 0.6;
+  }
+  
+  .overlay {
+    background-color: #B2958B;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 
 /*----------CONTACT SECTION---------*/
@@ -121,45 +165,34 @@ h3 {
     color: #B2958B;
 }
 
-.formName {
+.formName, .formEmail {
     border-color: #FFE8E0;
     border-style: solid;
     border-width: 2px;
+    width: 50%;
+    height: 25px;
     margin-bottom: 20px;
     padding-top: 7px;
-    padding-left: 5px;
-    width: 50%;
-    height: 25px; 
-}
-
-.formEmail {
-    border-color: #FFE8E0;
-    border-style: solid;
-    border-width: 2px;
-    margin-bottom: 20px;
-    padding-top: 7px;
-    padding-left: 5px;
-    width: 50%;
-    height: 25px; 
+    padding-left: 5px; 
 }
 
 .formMessage {
     border-color: #FFE8E0;
     border-style: solid;
     border-width: 2px;
+    width: 99%;
+    height: 100px;
     margin-bottom: 20px;
     padding-top: 7px;
-    padding-left: 5px;
-    width: 99%;
-    height: 100px; 
+    padding-left: 5px; 
 }
 
 .submit {
     background-color: #B2958B;
     color: white;
-    padding-top: 10px;
     width: 15%;
     height: 25px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -168,15 +201,15 @@ h3 {
 
 .footer {
     clear: both;
-    position: fixed;
-    bottom: 0;
-    width: 960px;
-    margin: 0 auto;
     background-color: #FFE8E0;
-    /* margin-top: 20px; */
+    color: white;
+    width: 960px;
+    /* position: fixed;
+    bottom: 0; */
+    margin: 0 auto;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    color: white;
     font-weight: 700;
 }
